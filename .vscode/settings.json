@@ -1,0 +1,50 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "css.validate": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "white",
+      "backgroundColor": "green",
+      "overviewRulerColor": "grey"
+    }
+  ],
+  "prettier.printWidth": 150, // 超过最大值换行
+  "prettier.tabWidth": 2, // 缩进字节数
+  "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+  "prettier.semi": true, // 句尾添加分号
+  "prettier.singleQuote": true, // 使用单引号代替双引号
+  "prettier.trailingComma": "es5",
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  } // 在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）
+}
